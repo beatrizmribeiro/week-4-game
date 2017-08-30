@@ -12,14 +12,54 @@
   </style>
 </head>
 <body>
+
+<h1> Crystal Collector Game</h1>
+
+<h2>Number to Guess: <span id="random-number"></span></h2>
+
+
   <!-- We then wrapped our crystal image in an id "#crystals" -->
   <div id="crystals">
     <!-- We gave our crystal image the class ".crystal-image" to apply the resize-->
-    <img class="crystal-image" src="http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg" alt="crystals">
+    <img class="crystal-blue" src="assets/images/blue.png" alt="bluecrystals">
+
+    <img class="crystal-green" src="assets/images/green.png" alt="greenrystals">
+
+    <img class="crystal-yellow" src="assets/images/yellow.png" alt="yellowcrystals">
+
+    <img class="crystal-purple" src="assets/images/purple.png" alt="purplecrystals">
+    </div>
+
+
+<div id="container">
+    
+
+  <div>
+    <p>Wins:</p>
+    <div id="wins"/>
+  </div>
+
+  <div>
+    <p>Losses:</p>
+    <div id="losses"/>
+  </div>
+
+<div>
+    <p>Your Score:</p>
+    <div id="scorenumber"/>
+  </div>
+
+
+
+
+
+
+</div>
+
   </div>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <!-- Lastly we removed our "alert" -->
-  <script type="text/javascript">
+  <script type="text/javascript" src="assets/javascript/game.js"></script>
   </script>
 </body>
 </html>
