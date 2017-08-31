@@ -2,12 +2,17 @@
 <html>
 <head>
   <title>simple crystal game</title>
+
+
+  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   
   <!-- Below we added some simple CSS to resize our image-->
   <style type="text/css">
-    .crystal-image {
-      width: 300px;
-      height: 300px;
+    #crystals {
+      width: 800;
+      height: 500px;
     }
   </style>
 </head>
@@ -15,7 +20,7 @@
 
 <h1> Crystal Collector Game</h1>
 
-<h2>Number to Guess: <span id="random-number"></span></h2>
+<h2>&nbsp This is your number to guess: <span id="random-number"></span></h2>
 
 
   <!-- We then wrapped our crystal image in an id "#crystals" -->
@@ -33,21 +38,36 @@
 
 <div id="container">
     
+    <div class="row">
+      <div class="col-md-4">
 
-  <div>
-    <p>Wins:</p>
-    <div id="wins"/>
-  </div>
+          <div id="winner">
+            <p>&nbsp Wins:</p>
+          <div id="wins"/>
+          </div>
+      </div>    
 
-  <div>
-    <p>Losses:</p>
-    <div id="losses"/>
-  </div>
 
-<div>
-    <p>Your Score:</p>
-    <div id="scorenumber"/>
-  </div>
+
+    
+    <div class="col-md-4">
+        <div id="lost">
+          <p>&nbsp Losses:</p>
+        <div id="losses"/>
+      </div>
+    </div>
+
+
+
+      <div class="col-md-4">
+        <div id="scoren">
+            <p>&nbsp Your Score:</p>
+          <div id="scorenumber"/>
+        </div>
+    
+      
+      </div>  
+
 
 
 

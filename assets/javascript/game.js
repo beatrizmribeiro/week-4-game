@@ -52,7 +52,7 @@ function result() {
 
 	if (score == randomNumber)
 	{
-		console.log("Game won");ß
+		console.log("Game won");
 		this.wins++;
 		$("#wins").text(wins);
 		

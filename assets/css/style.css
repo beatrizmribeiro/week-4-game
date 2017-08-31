@@ -1,6 +1,120 @@
 body {
 	width: 1060px;
-	height: 840px;
+	height: 1040px;
 	margin: 0 auto;
-	background-image: url("../images/triangular.png");
+	background-image: url("../images/triangular_@2X.png");
 }
+
+
+h1 {
+
+	text-align: center;
+	background-color: grey;
+	height:80px;
+	line-height:2.5;
+	color:lightgray
+}
+
+
+
+
+
+
+
+.crystal-blue {
+	width:180px;
+	margin-right: 30px;
+}
+
+
+
+.crystal-green {
+	width:180px;
+	margin-right: 30px;
+}
+
+
+.crystal-yellow {
+	width:180px;
+	margin-right: 30px;
+}
+
+
+.crystal-purple {
+	width:180px
+}
+	
+#crystals {
+	margin-left:50px;
+	padding-left: 70px;
+	margin-top: 80px;
+	
+}
+
+#container {
+	font-size: 30px;
+	margin-top:-300px;
+}
+
+
+
+#winner {
+	
+	margin-left:5px;
+	background-color:lightblue;
+	height:140px;
+	text-align: left;
+	width:300px;
+	color:gray;
+}
+
+
+
+
+#lost {
+	margin-left:400px;
+	color:gray;
+	height:140px;
+	background-color:limegreen;
+	width:300px
+
+
+}
+
+#scoren {
+	margin-left:800px;
+	color:gray;
+	height:140px;
+	background-color:goldenrod;
+	width: 300px
+}
+
+
+#wins {
+	text-align: left;
+	line-height: inherit;
+	text-align: center;
+	}
+
+h2 {
+	width:540px;
+	height: 80px;
+	color:lightgray;
+	background-color:mediumorchid;
+	line-height:65px;
+	text-align:left;
+
+	
+}
+
+#losses {
+	text-align: left;
+	line-height: inherit;
+	text-align: center;
+	}
+
+#scorenumber {
+	text-align: left;
+	line-height: inherit;
+	text-align: center;
+	}
