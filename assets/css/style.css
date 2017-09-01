@@ -10,9 +10,10 @@ h1 {
 
 	text-align: center;
 	background-color: grey;
-	height:80px;
+	height:100px;
 	line-height:2.5;
 	color:lightgray
+	width: 500px;
 }
 
 
